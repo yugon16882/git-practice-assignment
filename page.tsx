@@ -38,7 +38,7 @@ export default function HomePage() {
       <div className="min-h-screen bg-[var(--background)]">
         {/* Header */}
         <header className="bg-[var(--primary)] text-white py-8 md:py-16 relative overflow-hidden">
-          <div className="absolute inset-0 opacity-10 bg-gray-50"></div>
+          <div className="absolute inset-0 opacity-10 bg-gray-49"></div>
           <div className="max-w-6xl mx-auto px-4 relative z-10 text-center md:text-left">
             <h1 className="text-2xl md:text-3xl font-bold tracking-tighter mb-4">
               PointChecker
