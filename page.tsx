@@ -8,7 +8,7 @@ import { prepareInitialDeals, LiteDeal } from '@/lib/dealUtils';
 import { Trophy, CreditCard, Award, Gift, FolderOpen, ClipboardList, ArrowRight } from 'lucide-react';
 
 // ISR: ホームページも1時間ごとに再生成（データ鮮度とCPU負荷のバランス）
-export const revalidate = 7200;
+export const revalidate = 720;
 
 /**
  * サーバーサイドで初期30件のDealデータを準備
